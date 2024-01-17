@@ -2,118 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yubuguosan.github.io/zh-cn/</loc>
+    <loc>https://wenrui5810.github.io/zh-cn/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yubuguosan.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://yubuguosan.github.io/ar/"
+                href="https://wenrui5810.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yubuguosan.github.io/zh-cn/"
+                href="https://wenrui5810.github.io/zh-cn/"
                 />
   </url><url>
-    <loc>https://yubuguosan.github.io/zh-cn/categories/</loc>
+    <loc>https://wenrui5810.github.io/zh-cn/categories/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yubuguosan.github.io/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://yubuguosan.github.io/ar/categories/"
+                href="https://wenrui5810.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yubuguosan.github.io/zh-cn/categories/"
+                href="https://wenrui5810.github.io/zh-cn/categories/"
                 />
   </url><url>
-    <loc>https://yubuguosan.github.io/zh-cn/p/test-chinese/</loc>
+    <loc>https://wenrui5810.github.io/zh-cn/p/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yubuguosan.github.io/zh-cn/post/</loc>
+    <loc>https://wenrui5810.github.io/zh-cn/post/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yubuguosan.github.io/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://yubuguosan.github.io/ar/post/"
+                href="https://wenrui5810.github.io/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yubuguosan.github.io/zh-cn/post/"
+                href="https://wenrui5810.github.io/zh-cn/post/"
                 />
   </url><url>
-    <loc>https://yubuguosan.github.io/zh-cn/categories/test/</loc>
+    <loc>https://wenrui5810.github.io/zh-cn/categories/test/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yubuguosan.github.io/categories/test/"
+                href="https://wenrui5810.github.io/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yubuguosan.github.io/zh-cn/categories/test/"
+                href="https://wenrui5810.github.io/zh-cn/categories/test/"
                 />
   </url><url>
-    <loc>https://yubuguosan.github.io/zh-cn/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://wenrui5810.github.io/zh-cn/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yubuguosan.github.io/zh-cn/page/</loc>
+    <loc>https://wenrui5810.github.io/zh-cn/page/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yubuguosan.github.io/page/"
+                href="https://wenrui5810.github.io/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yubuguosan.github.io/zh-cn/page/"
+                href="https://wenrui5810.github.io/zh-cn/page/"
                 />
   </url><url>
-    <loc>https://yubuguosan.github.io/zh-cn/tags/</loc>
+    <loc>https://wenrui5810.github.io/zh-cn/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yubuguosan.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://yubuguosan.github.io/ar/tags/"
+                href="https://wenrui5810.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yubuguosan.github.io/zh-cn/tags/"
+                href="https://wenrui5810.github.io/zh-cn/tags/"
                 />
   </url><url>
-    <loc>https://yubuguosan.github.io/zh-cn/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://wenrui5810.github.io/zh-cn/%E5%85%B3%E4%BA%8E/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yubuguosan.github.io/about/"
+                href="https://wenrui5810.github.io/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yubuguosan.github.io/zh-cn/%E5%85%B3%E4%BA%8E/"
+                href="https://wenrui5810.github.io/zh-cn/%E5%85%B3%E4%BA%8E/"
                 />
   </url>
 </urlset>
