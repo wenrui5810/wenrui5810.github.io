@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>笔记 on 娱不过三</title>
+        <link>https://wenrui5810.github.io/categories/%E7%AC%94%E8%AE%B0/</link>
+        <description>Recent content in 笔记 on 娱不过三</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Fri, 01 Mar 2024 21:33:37 +0800</lastBuildDate><atom:link href="https://wenrui5810.github.io/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Linux笔记</title>
+        <link>https://wenrui5810.github.io/p/linux%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Fri, 01 Mar 2024 21:33:37 +0800</pubDate>
+        
+        <guid>https://wenrui5810.github.io/p/linux%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;h1 id=&#34;第一章-操作系统概述&#34;&gt;第一章 操作系统概述&lt;/h1&gt;
+&lt;h2 id=&#34;1计算机有哪两个主要部分组成&#34;&gt;1.计算机有哪两个主要部分组成？&lt;/h2&gt;
+&lt;p&gt;软件和硬件&lt;/p&gt;
+&lt;h2 id=&#34;2操作系统是什么有什么作用&#34;&gt;2.操作系统是什么？有什么作用？&lt;/h2&gt;
+&lt;p&gt;操作系统是软件的一类。&lt;/p&gt;
+&lt;p&gt;主要作用是协助用户调度硬件工作，充当用户和计算机硬件之间的桥梁&lt;/p&gt;
+&lt;h2 id=&#34;3常见的操作系统有哪些&#34;&gt;3.常见的操作系统有哪些？&lt;/h2&gt;
+&lt;p&gt;PC端：Windows、Linux、MacOS&lt;/p&gt;
+&lt;p&gt;移动端：Android、IOS、鸿蒙系统&lt;/p&gt;
+&lt;h1 id=&#34;linux初识&#34;&gt;Linux初识&lt;/h1&gt;
+&lt;h2 id=&#34;1linux的诞生&#34;&gt;1.Linux的诞生&lt;/h2&gt;
+&lt;p&gt;Linux由林纳斯 托瓦兹在1991年创立并发展至今成为服务器操作系统领域的核心系统。&lt;/p&gt;
+&lt;h2 id=&#34;2什么是linux系统的内核&#34;&gt;2.什么是Linux系统的内核&lt;/h2&gt;
+&lt;p&gt;内核提供了Linux系统的主要功能，如硬件调度管理的能力。&lt;/p&gt;
+&lt;p&gt;Linux内核是免费开源的，任何人都可以查看内核的源代码，甚至是贡献源代码。&lt;/p&gt;
+&lt;h2 id=&#34;3什么是linux系统发行版&#34;&gt;3.什么是Linux系统发行版&lt;/h2&gt;
+&lt;p&gt;内核无法被用户直接使用，需要配合应用程序才能被用户使用。&lt;/p&gt;
+&lt;p&gt;在内核之上，封装系统级应用程序，组合在一起就称之为Linux发行版。&lt;/p&gt;
+&lt;p&gt;最火热的有CentOS，Ubuntu&lt;/p&gt;
+&lt;h2 id=&#34;虚拟机介绍&#34;&gt;虚拟机介绍&lt;/h2&gt;
+&lt;h2 id=&#34;1什么是虚拟机&#34;&gt;1.什么是虚拟机？&lt;/h2&gt;
+&lt;p&gt;通过虚拟化技术，在电脑内，虚拟出计算机硬件，并给虚拟的硬件安装操作系统，即可以得到一台虚拟的电脑，称之为虚拟机。&lt;/p&gt;
+&lt;h1 id=&#34;vmnet1和vmnet8&#34;&gt;vmnet1和vmnet8&lt;/h1&gt;
+&lt;p&gt;&amp;ldquo;vmnet1&amp;rdquo; 和 &amp;ldquo;vmnet8&amp;rdquo; 是虚拟网络标识符，通常与 VMware 虚拟化软件中的虚拟网络有关。这些标识符代表不同的虚拟网络适配器。以下是它们的一些常见特点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;vmnet1&lt;/strong&gt;：通常代表 VMware Workstation 或 VMware Player 中的第一个虚拟网络适配器。这个虚拟网络通常用于主机系统与虚拟机之间的通信，或者虚拟机之间的通信，具体取决于虚拟网络配置。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;vmnet8&lt;/strong&gt;：通常代表 VMware Workstation 或 VMware Player 中的第八个虚拟网络适配器。这个虚拟网络通常用于 NAT（Network Address Translation，网络地址转换）模式，允许虚拟机与主机系统之间共享主机系统的网络连接。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这些虚拟网络适配器允许虚拟机与外部网络进行通信，并提供不同的网络模式和配置选项，以满足各种需求。用户可以根据需要配置这些虚拟网络适配器，以便虚拟机能够以不同的方式与主机系统和其他虚拟机进行通信。&lt;/p&gt;
+&lt;p&gt;请注意，虽然 &amp;ldquo;vmnet1&amp;rdquo; 和 &amp;ldquo;vmnet8&amp;rdquo; 是常见的默认标识符，但用户可以根据需要创建更多的虚拟网络适配器，并为它们分配不同的标识符和配置。因此，虚拟网络的具体设置和标识符可能会因 VMware 版本和用户的配置而有所不同。&lt;/p&gt;
+&lt;h1 id=&#34;第二章-linux目录结构&#34;&gt;第二章 Linux目录结构&lt;/h1&gt;
+&lt;h2 id=&#34;1linux操作系统的目录结构&#34;&gt;1.Linux操作系统的目录结构&lt;/h2&gt;
+&lt;p&gt;Linux只有一个顶级目录，称之为：根目录&lt;/p&gt;
+&lt;p&gt;Windows系统有多个顶级目录，即各个盘符&lt;/p&gt;
+&lt;h2 id=&#34;2-在linux系统中表示&#34;&gt;2. /在Linux系统中表示&lt;/h2&gt;
+&lt;p&gt;出现在开头的表示：根目录&lt;/p&gt;
+&lt;p&gt;出现在后面的表示：层次关系&lt;/p&gt;
+&lt;h1 id=&#34;ls命令入门&#34;&gt;ls命令入门&lt;/h1&gt;
+&lt;h1 id=&#34;1ls命令的作用是&#34;&gt;1.ls命令的作用是？&lt;/h1&gt;
+&lt;p&gt;在命令行中，以平铺的形式，展示当前工作目录（默认HOME目录）下的内容（文件或文件夹）&lt;/p&gt;
+&lt;h2 id=&#34;2home目录是&#34;&gt;2.HOME目录是？&lt;/h2&gt;
+&lt;p&gt;每一个用户在Linux系统的专属目录，默认在：/home/用户名&lt;/p&gt;
+&lt;h2 id=&#34;3当前工作目录&#34;&gt;3.当前工作目录？&lt;/h2&gt;
+&lt;p&gt;Linux命令行在执行命令的时候，需要一个工作目录，打开命令行程序（终端）默认设置工作目录在用户的HOME目录&lt;/p&gt;
+&lt;h1 id=&#34;ls命令的参数和选项&#34;&gt;ls命令的参数和选项&lt;/h1&gt;
+&lt;h2 id=&#34;1-ls命令的参数的作用&#34;&gt;1. ls命令的参数的作用&lt;/h2&gt;
+&lt;p&gt;可以指定要查看的文件夹（目录）的内容，如果不给定参数，就查看当前工作目录的内容&lt;/p&gt;
+&lt;h2 id=&#34;2-ls命令的选项&#34;&gt;2. ls命令的选项：&lt;/h2&gt;
+&lt;p&gt;-a选项，可以展示出隐藏的内容&lt;/p&gt;
+&lt;p&gt;以.开头的文件或文件夹默认被隐藏，需要-a才能显示出来&lt;/p&gt;
+&lt;p&gt;-l选项，以列表的形式展示内容，并展示更多细节&lt;/p&gt;
+&lt;p&gt;-h选项，需要和-l选项搭配使用，以更加人性化的方式显示文件的大小单位&lt;/p&gt;
+&lt;h2 id=&#34;3-命令的选项组合使用&#34;&gt;3. 命令的选项组合使用&lt;/h2&gt;
+&lt;p&gt;命令的选项是可以组合使用的，比如：ls -lah，等同于ls -a -l -h&lt;/p&gt;
+&lt;h1 id=&#34;cd-pwd-命令&#34;&gt;cd pwd 命令&lt;/h1&gt;
+&lt;h1 id=&#34;1cd命令的作用&#34;&gt;1.cd命令的作用&lt;/h1&gt;
+&lt;p&gt;cd 命令来自英文：Change Directory&lt;/p&gt;
+&lt;p&gt;cd命令可以切换当前工作目录，语法是：&lt;/p&gt;
+&lt;p&gt;cd [Linux路径]&lt;/p&gt;
+&lt;p&gt;没有选项，只有参数，表示目标路径&lt;/p&gt;
+&lt;p&gt;使用参数，切换到指定路径&lt;/p&gt;
+&lt;p&gt;不使用参数，切换工作目录到当前用户的HOME&lt;/p&gt;
+&lt;h2 id=&#34;2pwd命令的作用&#34;&gt;2.pwd命令的作用&lt;/h2&gt;
+&lt;p&gt;pwd命令来自英文：Print Work Directory&lt;/p&gt;
+&lt;p&gt;pwd命令，没有选项，没有参数，直接使用即可&lt;/p&gt;
+&lt;p&gt;作用是：输出当前所在的工作目录&lt;/p&gt;
+&lt;h1 id=&#34;相对路径绝对路径和特殊路径符&#34;&gt;相对路径，绝对路径和特殊路径符&lt;/h1&gt;
+&lt;h2 id=&#34;1相对路径和绝对路径&#34;&gt;1.相对路径和绝对路径&lt;/h2&gt;
+&lt;p&gt;绝对路径：以根路径为起点，描述路径的方式，路径以/开头&lt;/p&gt;
+&lt;p&gt;相对路径：以当前目录为起点，描述路径的方式，路径无需以/开头&lt;/p&gt;
+&lt;h2 id=&#34;2特殊路径符有哪些&#34;&gt;2.特殊路径符有哪些？&lt;/h2&gt;
+&lt;p&gt;. 表示当前目录&lt;/p&gt;
+&lt;p&gt;.. 表示上一级目录&lt;/p&gt;
+&lt;p&gt;~ 表示用户的HOME目录&lt;/p&gt;
+&lt;h1 id=&#34;创建目录命令mkdir&#34;&gt;创建目录命令（mkdir）&lt;/h1&gt;
+&lt;h1 id=&#34;1mkdir用来创建新的目录文件夹&#34;&gt;1.mkdir用来创建新的目录（文件夹）&lt;/h1&gt;
+&lt;p&gt;语法：mkdir -p 路径&lt;/p&gt;
+&lt;p&gt;参数必填，表示要创建的目录的路径，相对、绝对、特殊路径符都可以使用&lt;/p&gt;
+&lt;h2 id=&#34;2---p选项的作用&#34;&gt;2.  -p选项的作用&lt;/h2&gt;
+&lt;p&gt;可选，表示自动创建不存在的父目录，适用于创建连续多层级的目录&lt;/p&gt;
+&lt;h1 id=&#34;文件操作命令touchcatmore&#34;&gt;文件操作命令（touch、cat、more）&lt;/h1&gt;
+&lt;h2 id=&#34;1touch命令&#34;&gt;1.touch命令&lt;/h2&gt;
+&lt;p&gt;用于创建一个新的文件&lt;/p&gt;
+&lt;p&gt;语法：touch Linux路径&lt;/p&gt;
+&lt;p&gt;参数必填，表示要创建的文件的路径，相对、绝对、特殊路径符都可以使用&lt;/p&gt;
+&lt;h2 id=&#34;2-cat命令&#34;&gt;2. cat命令&lt;/h2&gt;
+&lt;p&gt;用于查看文件内容&lt;/p&gt;
+&lt;p&gt;语法：cat Linux路径&lt;/p&gt;
+&lt;p&gt;参数必填，表示要查看的文件的路径，相对、绝对、特殊路径符都可以使用&lt;/p&gt;
+&lt;h2 id=&#34;3-more命令&#34;&gt;3. more命令&lt;/h2&gt;
+&lt;p&gt;用于查看文件内容，可翻页查看&lt;/p&gt;
+&lt;p&gt;语法：more Linux路径&lt;/p&gt;
+&lt;p&gt;参数必填，表示要查看的文件的路径，相对、绝对、特殊路径符都可以使用&lt;/p&gt;
+&lt;p&gt;使用空格进行翻页，使用q退出查看&lt;/p&gt;
+&lt;h1 id=&#34;文件操作命令cp-mv&#34;&gt;文件操作命令（cp mv）&lt;/h1&gt;
+&lt;h2 id=&#34;1cp命令&#34;&gt;1.cp命令&lt;/h2&gt;
+&lt;p&gt;用于复制文件或文件夹&lt;/p&gt;
+&lt;p&gt;语法：cp  [-r] 参数1 参数2&lt;/p&gt;
+&lt;p&gt;-r选项，可选，用于复制文件夹使用，表示递归&lt;/p&gt;
+&lt;p&gt;参数1，Linux路径，表示被复制的文件或文件夹&lt;/p&gt;
+&lt;p&gt;参数2，Linux路径，表示要复制去的地方&lt;/p&gt;
+&lt;h2 id=&#34;2mv命令&#34;&gt;2.mv命令&lt;/h2&gt;
+&lt;p&gt;用于移动文件内容&lt;/p&gt;
+&lt;p&gt;语法： mv 参数1 参数2&lt;/p&gt;
+&lt;p&gt;参数1，Linux路径，表示被移动的文件或文件夹&lt;/p&gt;
+&lt;p&gt;参数2，Linux路径，表示要移动去的地方，如果目标不存在，则进行改名&lt;/p&gt;
+&lt;h1 id=&#34;查找命令which-find&#34;&gt;查找命令（which find）&lt;/h1&gt;
+&lt;h2 id=&#34;1-which命令&#34;&gt;1. which命令&lt;/h2&gt;
+&lt;p&gt;查找命令的程序文件&lt;/p&gt;
+&lt;p&gt;语法：which 要查找的命令&lt;/p&gt;
+&lt;p&gt;无需选项，只需要参数表示查找哪个命令&lt;/p&gt;
+&lt;h2 id=&#34;2-find命令&#34;&gt;2. find命令&lt;/h2&gt;
+&lt;p&gt;用于查找指定的文件&lt;/p&gt;
+&lt;p&gt;按文件名查找： find 起始路径 -name &amp;ldquo;被查找文件名&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;支持通配符&lt;/p&gt;
+&lt;p&gt;按文件大小查找：find 起始路径 -size + 或-n[kMG]&lt;/p&gt;
+&lt;h1 id=&#34;grep-wc-和管道符&#34;&gt;grep wc 和管道符&lt;/h1&gt;
+&lt;h2 id=&#34;1-grep命令&#34;&gt;1. grep命令&lt;/h2&gt;
+&lt;p&gt;从文件中通过关键字过滤文件行&lt;/p&gt;
+&lt;p&gt;语法： grep [-n] 关键字 文件路径&lt;/p&gt;
+&lt;p&gt;-n 可选，表示在结果中显示匹配的行的行号&lt;/p&gt;
+&lt;p&gt;关键字，表示过滤的关键字，建议使用“ ”将关键字包围起来&lt;/p&gt;
+&lt;p&gt;文件路径，表示要过滤内容的文件路径，可作为管道符的输入&lt;/p&gt;
+&lt;h2 id=&#34;2-wc命令&#34;&gt;2. wc命令&lt;/h2&gt;
+&lt;p&gt;命令统计文件的行数、单词数量、字节数、字符数&lt;/p&gt;
+&lt;p&gt;语法： wc [-c -m -l -w] 文件路径&lt;/p&gt;
+&lt;p&gt;不带选项默认统计： 行数，单词数，字节数&lt;/p&gt;
+&lt;p&gt;-c 字节数、-m字符数、-l行数、-w单词数&lt;/p&gt;
+&lt;p&gt;参数，被统计的文件路径，可作为管道符的输入&lt;/p&gt;
+&lt;h3 id=&#34;3管道符&#34;&gt;3.管道符&lt;/h3&gt;
+&lt;p&gt;将管道符左边命令的结果，作为右边命令的输入&lt;/p&gt;
+&lt;h1 id=&#34;echo和重定向符&#34;&gt;echo和重定向符&lt;/h1&gt;
+&lt;h2 id=&#34;1echo命令&#34;&gt;1.echo命令&lt;/h2&gt;
+&lt;p&gt;可以使用echo命令在命令行内输出指定内容&lt;/p&gt;
+&lt;p&gt;语法： echo 输出的内容&lt;/p&gt;
+&lt;h2 id=&#34;2--反引号符&#34;&gt;2.  `反引号符&lt;/h2&gt;
+&lt;p&gt;被`包围的内容，会被作为命令执行，而非普通字符&lt;/p&gt;
+&lt;h2 id=&#34;3重定向符&#34;&gt;3.重定向符&lt;/h2&gt;
+&lt;p&gt;ddd &amp;gt; 将左侧命令的结果，覆盖写入到符号右侧指定的文件中&lt;/p&gt;
+&lt;p&gt;ddd &amp;raquo; 将左侧命令的结果，追加写入到符号右侧指定的文件中&lt;/p&gt;
+&lt;h2 id=&#34;4tail命令&#34;&gt;4.tail命令&lt;/h2&gt;
+&lt;p&gt;查看文件尾部内容，并可以持续跟踪&lt;/p&gt;
+&lt;p&gt;语法： tail [-f -num] Linux路径&lt;/p&gt;
+&lt;h1 id=&#34;vi编辑器&#34;&gt;vi编辑器&lt;/h1&gt;
+&lt;h1 id=&#34;第三章linux的root用户&#34;&gt;第三章Linux的root用户&lt;/h1&gt;
+&lt;h2 id=&#34;1-linux系统的超级管理员用户是root用户&#34;&gt;1. Linux系统的超级管理员用户是：root用户&lt;/h2&gt;
+&lt;h2 id=&#34;2su命令&#34;&gt;2.su命令&lt;/h2&gt;
+&lt;p&gt;可以切换用户，语法： su [-] [用户名]&lt;/p&gt;
+&lt;p&gt;-表示切换后加载环境变量，建议带上&lt;/p&gt;
+&lt;p&gt;用户可以省略，默认切换到root&lt;/p&gt;
+&lt;h2 id=&#34;3-sudo命令&#34;&gt;3. sudo命令&lt;/h2&gt;
+&lt;p&gt;可以让一条普通命令带有root权限，语法：sudo 其他命令&lt;/p&gt;
+&lt;p&gt;需要以root用户执行visudo命令，增加配置才可以让普通用户拥有sudo命令的执行权限&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
